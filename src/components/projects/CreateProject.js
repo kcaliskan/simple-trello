@@ -25,7 +25,7 @@ class CreateProject extends Component {
             <input type="text" id="title" onChange={this.handleChange} />
           </div>
           <div className="input-field">
-            <label htmlFor="content">Project Content Content</label>
+            <label htmlFor="content">Project Content</label>
             <textarea
               id="content"
               onChange={this.handleChange}
